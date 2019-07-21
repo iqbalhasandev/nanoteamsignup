@@ -1,0 +1,136 @@
+<!-- Theme Name: Nano Team Join Form
+Theme URI: https://iqbalhasan.gitghub.oi/nanoteamsignup
+Author: IQBA HASAN
+Author URI: https://www.github.com/iqbalhasandev
+Author Social URI: https://www.facebook.com/iqbalhasan.dev
+Description:This template is designed for the registration form of the nano team only..
+Version: 1.0 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- important mate tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- title -->
+    <title>Singn UP</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- bootstrapcdn css
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawsome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/custom.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/responsive.min.css">
+</head>
+
+<body class="form-bg">
+    <div class="contact-me"> <a href="https://m.me/iqbalhasan.dev" target="_blank"><i
+                class="fab fa-facebook-messenger"></i></a>
+    </div>
+    <div class="top-header">
+        <div class="">
+            <div class="form-box">
+                <div class="form-inner">
+                    <form action="Register.php" method="post" class="needs-validation form-row" novalidate>
+                        <div class="form-title text-center">
+                            <h2>registration form</h2>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="fullname">full Name</label>
+                            <input type="text" class="form-control" name="fullname" id="fullname"
+                                placeholder="Enter Your Full Name" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="semester">semester</label>
+                                <select class="custom-select form-control" name="semester" id="semester" required>
+                                    <option value="" selected>Selected Semester</option>
+                                    <option value="1se">1st semester</option>
+                                    <option value="3se">3rd semester </option>
+                                    <option value="5se">5th semester </option>
+                                    <option value="7se">7th semester</option>
+                                </select>
+                                <div class="invalid-tooltip">Example invalid custom select feedback</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="shift">Shift</label>
+                                <select class="custom-select form-control" name="shift" id="shift" required>
+                                    <option value="" selected>Selected shift</option>
+                                    <option value="1shift">1st</option>
+                                    <option value="2shift">2nd</option>
+                                </select>
+                                <div class="invalid-tooltip">Example invalid custom select feedback</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email"
+                                placeholder="Enter Your Email Address" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid email
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="phone">phone number</label>
+                            <input type="text" class="form-control" name="phone" id="phone"
+                                placeholder="Enter Your Phone Number" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid phone number
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="address">Address</label>
+                            <input type="text" name="address" class="form-control" id="address"
+                                placeholder="Enter Your Address" required></textarea>
+                            <div class="invalid-feedback">
+                                Please provide a valid phone number
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" name="terms" type="checkbox" value="yes"
+                                    id="invalidCheck" required>
+                                <label class="custom-control-label" for="invalidCheck">
+                                    I Agree to <a href="index.html#termsCon"> terms and conditions</a>
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-custom">
+                            <button class="btn btn-lg btn-submit " name="submit" type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
