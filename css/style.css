@@ -1,35 +1,24 @@
-body,
-html {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+/* Theme Name: Nano Team Join Form
+Theme URI: https://iqbalhasan.gitghub.oi/nanoteamsignup
+Author: IQBA HASAN
+Author URI: https://www.github.com/iqbalhasandev
+Author Social URI: https://www.facebook.com/iqbalhasan.dev
+Description:This template is designed for the registration form of the nano team only..
+Version: 1.0  */
+
+
+
+html,
+body {
+    width: 100%;
+
     height: 100%;
-    width: 100%
 }
 
-section,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span {
-    font-family: 'SolaimanLipi'sans-serif;
-}
-
-a {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.registernow {
+#registernow {
     position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1030
+    top: 3%;
+    right: 1%;
 }
 
 .registernow a {
@@ -43,21 +32,23 @@ a {
     color: #fff;
     -webkit-transition: all .5s linear;
     -webkit-transition: all .3s linear;
-    transition: all .3s linear
+    transition: all .3s linear;
 }
 
-.registernow a:hover {
-    background: #f1c40f
+.registernow a:hover,
+.registernow a:focus {
+    background: #f1c40f;
 }
 
-#header {
+/* home */
+#home {
     background-image: url(../img/home-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
     width: 100%;
-    z-index: 0
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
 }
 
 .overlay {
@@ -67,51 +58,50 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-    z-index: 1
+    z-index: 1;
 }
 
-#header-content {
+.content-box {
+    display: flex;
+    align-items: center;
     height: 100%;
-    width: 100%;
-    display: table;
     z-index: 2;
-    color: #fff;
-    position: relative
+    position: relative;
 }
 
-#header-inner {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center
+.content-box-inner {
+    margin: auto;
 }
 
-.header-title h1 {
+.home-title {
+    color: #b22;
+    font-size: 7rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.home-title h1 {
     color: #fab1a0;
     font-size: 7rem;
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-family: 'Open Sans',
-        sans-serif;
 }
 
-.header-text p {
+.home-dic {
     color: #f8fbff;
-    font-family: 'Open Sans',
-        sans-serif;
+    margin-bottom: 103px;
 }
 
-.header-button a {
-    padding: 24px 60px;
-    color: #fff;
+.button a {
     text-decoration: none;
     text-transform: uppercase;
-    background: 0 0;
+    font-size: 1rem;
+    color: #fff;
+    padding: 24px 60px;
     border-radius: 0;
-    text-align: center
 }
 
-.header-button .terms {
-    margin-right: 8%;
+.terms {
     float: right;
     background-size: 200% auto;
     background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f857a6), color-stop(51%, #ff5858), to(#f857a6));
@@ -120,123 +110,133 @@ a {
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
-    -o-transition: 1s
+    -o-transition: 1s;
 }
 
-.header-button .terms:hover {
+.terms:hover,
+.terms:focus {
     background-position: right center;
     color: #34495e
 }
 
-.header-button .join {
+.join {
     border-style: solid;
     border-width: 2px;
     border-image-source: linear-gradient(to right, red, purple);
     border-image-slice: 1;
-    padding: 24px 80px;
-    float: left
+    padding: 24px 90px !important;
+    float: left;
 }
 
-.join:hover {
+.join:hover,
+.join:focus {
     background: #fed330;
     color: #131a22;
     -o-border-image: none;
     border-image: none
 }
 
-.header-arrowdown a {
+.arrow-down {
     position: absolute;
-    bottom: 20px;
+    left: 50%;
+    bottom: 2%;
+}
+
+.arrow-down a {
     font-weight: 600;
     font-size: 2rem;
-    text-decoration: none;
     color: #fff;
-    -webkit-transition: all .2s linear;
-    transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -ms-transition: all .2s linear;
-    -o-transition: all .2s linear
 }
 
-.header-arrowdown a:hover {
-    color: #d85cea
+.arrow-down a:hover,
+.arrow-down a:focus {
+    color: #d85cea;
 }
 
-.dami-title h2 {
-    font-family: 'SolaimanLipi'sans-serif;
+
+/* about */
+#about {
+    padding-top: 100px;
+}
+
+.title {
+    padding: 30px 0;
+}
+
+.title h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 45px;
+    text-transform: uppercase;
 }
 
 .hr {
     width: 42px;
     border-bottom: 3px solid #2244ec;
-    display: inline-block
+    display: inline-block;
 }
 
-.dami-dec p {
-    font-size: 1.2rem;
-    line-height: 2rem;
-    font-family: 'SolaimanLipi'sans-serif;
+
+.content p {
+    font-size: 1.3rem;
+    line-height: 1.9;
+}
+
+.content-style {
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+    font-family: "SolaimanLipi", sans-serif;
+    font-size: 1.1rem;
     text-align: justify;
 }
 
-.content-box-title h2 {
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 45px;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-} 
 
-.mr-100 {
-    margin: 100px
+/* perpose */
+.perpose {
+    padding-top: 100px;
 }
 
-.required-dec ul {
+.content-item {
     list-style: none;
-    line-height: 4rem
+    margin-top: 80px;
 }
 
-.required-dec ul li::before {
+.content-item li {
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 2.5;
+}
+
+.perpose .content-item li::before {
+    content: '\2756';
+
+    padding-right: 10px;
+}
+
+/* required */
+.required {
+    padding-top: 100px;
+}
+
+.required .content-item li::before {
     content: ' \274F';
     padding: 15px;
     font-size: 1.6rem;
-    font-weight: 600
+    font-weight: 600;
 }
 
-.required-dec ul li {
-    font-size: 1.2rem;
-    font-family: 'SolaimanLipi'sans-serif;
-    text-align: justify;
-}
 
-.quotes {
-    background: url(../img/quotes-img.jpg);
+/* quotes */
+#quotes {
+    background-image: url(../img/quotes-img.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
-    padding: 120px 0;
-    color: #fff;
-    z-index: 0;
-    position: relative
-}
-
-.quote-overlay {
-    background: rgba(33, 34, 38, .699);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%
-}
-
-.blockquote-footer {
-    padding: 20px;
-    color: #5df071
+    padding: 60px 0 60px 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .quote-box img {
@@ -247,24 +247,97 @@ a {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    -o-border-radius: 50%
+    -o-border-radius: 50%;
 }
 
-.termsCon-dec ul {
-    list-style: none
+
+
+.quote-boxtestimonial img {
+    max-width: 120px;
+    margin: 0 auto 0 auto;
 }
 
-.termsCon-dec ul li::before {
+.quote-box blockquote {
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #fff;
+    padding: 6px 150px;
+    position: relative;
+}
+
+.quote-box blockquote p {
+    color: #fff;
+}
+
+.quote-box blockquote::before,
+.quote-box blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.quote-box blockquote::before {
+    content: "\201C";
+    top: 0;
+    left: 100px;
+}
+
+.quote-box blockquote::after {
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
+}
+
+
+/* termsCon */
+#termsCon {
+    padding-top: 100px;
+}
+
+#termsCon .content-item li::before {
     content: '\2714';
     padding: 10px;
     line-height: 80px;
     font-size: 1.5rem;
-    font-weight: 600
+    font-weight: 600;
 }
 
+/* support */
+
+
+.support h4 {
+    margin-top: 50px;
+    font-size: .9rem;
+}
+
+.support-icon {
+    padding: 10px;
+}
+
+.support-icon a {
+    font-size: 2rem;
+    background: #54a0ff;
+    color: #ffff;
+    padding: 12px;
+}
+
+.support-icon a i {
+    padding: 5px;
+}
+
+.support-icon a:hover,
+.support-icon a:focus {
+    background: #00d2d3;
+    color: black;
+}
+
+/* footer */
 .footer h6 {
     text-transform: uppercase;
-    margin-top: 25px
 }
 
 .footer h6 a {
@@ -275,131 +348,28 @@ a {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out
+    -o-transition: all .5s ease-in-out;
 }
 
-.footer h6 a:hover {
-    color: #ec49da
+.footer h6 a:hover,
+.footer h6 a:focus {
+    color: #ec49da;
+}
+
+
+/* form */
+.contact-me a {
+    font-size: 3rem;
+}
+
+.contact-me a:hover {
+    color: #fff;
 }
 
 .contact-me {
     position: fixed;
-    bottom: 5%;
-    right: 2%
-}
-
-.contact-me a {
-    font-size: 3rem
-}
-
-.main-box {
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.box-inner {
-    margin: auto
-}
-
-.thank-img i {
-    font-size: 10rem;
-    color: #0be881
-}
-
-.thanks-title span {
-    color: #fb9915
-}
-
-.thanks-title h1 {
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 4rem;
-    padding: 20px
-}
-
-.thanks-dec p {
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding: 10px
-}
-
-.reatun a {
-    text-decoration: none;
-    border-radius: 28px;
-    padding: 10px 30px;
-    text-align: center;
-    color: #fff;
-    -webkit-transition: all .5s linear;
-    transition: all .5s linear
-}
-
-.home {
-    background: #e74c3c
-}
-
-.home:hover {
-    background: #e67e22;
-    color: #2c3e50
-}
-
-.home i {
-    margin-right: 5px
-}
-
-.back:hover {
-    background: #f1c40f;
-    color: #9b59b6
-}
-
-.back {
-    background: #2980b9;
-    padding: 10px 45px !important
-}
-
-.back i {
-    padding: 5px
-}
-
-.support a:hover {
-    color: #ff5e57
-}
-
-.support a {
-    text-decoration: none;
-    -webkit-transition: all .2s linear;
-    transition: all .2s linear
-}
-
-.support i {
-    padding: 5px
-}
-
-.support h4 {
-    margin-top: 50px;
-    font-size: .9rem
-}
-
-.thank-footer {
-    margin-top: 30px
-}
-
-.thank-footer h6 {
-    text-transform: capitalize
-}
-
-.thank-footer h6 a {
-    color: #f53b57;
-    font-weight: 600;
-    text-decoration: none;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-.thank-footer h6 a:hover {
-    color: #0fbcf9
+    bottom: 2%;
+    right: 5%;
 }
 
 .form-bg {
@@ -543,4 +513,124 @@ a {
     font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 2px
+}
+
+/* thanks */
+
+.main-box {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.box-inner {
+    margin: auto
+}
+
+.thank-img i {
+    font-size: 10rem;
+    color: #0be881
+}
+
+.thanks-title span {
+    color: #fb9915
+}
+
+.thanks-title h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4rem;
+    padding: 20px
+}
+
+.thanks-dec p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 10px
+}
+
+.reatun a {
+    text-decoration: none;
+    border-radius: 28px;
+    padding: 10px 30px;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+.home {
+    background: #e74c3c
+}
+
+.home:hover {
+    background: #e67e22;
+    color: #2c3e50
+}
+
+.home i {
+    margin-right: 5px
+}
+
+.back:hover {
+    background: #f1c40f;
+    color: #9b59b6
+}
+
+.back {
+    background: #2980b9;
+    padding: 10px 45px !important
+}
+
+.back i {
+    padding: 5px
+}
+
+.support a:hover {
+    color: #ff5e57
+}
+
+.support a {
+    text-decoration: none;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.custom-home {
+    text-align: right;
+}
+
+.custom-back {
+    text-align: left;
+}
+
+.support i {
+    padding: 5px
+}
+
+.support h4 {
+    margin-top: 50px;
+    font-size: .9rem
+}
+
+.thank-footer {
+    margin-top: 30px
+}
+
+.thank-footer h6 {
+    text-transform: capitalize
+}
+
+.thank-footer h6 a {
+    color: #f53b57;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.thank-footer h6 a:hover {
+    color: #0fbcf9
 }

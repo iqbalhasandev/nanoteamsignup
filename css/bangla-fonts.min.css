@@ -5,4 +5,5 @@ Author URI: https://www.github.com/iqbalhasandev
 Author Social URI: https://www.facebook.com/iqbalhasan.dev
 Description:This template is designed for the registration form of the nano team only..
 Version: 1.0 */
-@font-face{font-family:'SolaimanLipi'sans-serif;src:url(../Fonts/SolaimanLipi.eot);src:url(../Fonts/SolaimanLipi.woff) format('woff'),url(../Fonts/SolaimanLipi.ttf) format('truetype');font-weight:400;font-style:normal}
+
+@font-face{font-family:Kalpurush;src:url(../Fonts/Kalpurush.eot);src:url(../Fonts/Kalpurush.woff)format('woff'),url(../Fonts/Kalpurush.ttf)format('truetype');font-weight:400;font-style:normal}@font-face{font-family:SolaimanLipi;src:url(../Fonts/SolaimanLipi.eot);src:url(../Fonts/SolaimanLipi.woff)format('woff'),url(../Fonts/SolaimanLipi.ttf)format('truetype');font-weight:400;font-style:normal}

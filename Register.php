@@ -17,7 +17,7 @@ $phone = $_POST['phone'];
 $addres = $_POST['address'];
 $terms = $_POST['terms'];
 
-$sql = "SELECT * FROM user WHERE email='$email' Xor phone='$phone' LIMIT 1";
+$sql = "SELECT * FROM user WHERE email='$email' or phone='$phone' LIMIT 1";
     $query = $conn->query($sql);
     $row= mysqli_num_rows($query);
     if($row > 0){        

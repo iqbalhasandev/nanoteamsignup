@@ -1,0 +1,292 @@
+/* Theme Name: Nano Team Join Form
+Theme URI: https://iqbalhasan.gitghub.oi/nanoteamsignup
+Author: IQBA HASAN
+Author URI: https://www.github.com/iqbalhasandev
+Author Social URI: https://www.facebook.com/iqbalhasan.dev
+Description:This template is designed for the registration form of the nano team only..
+Version: 1.0  */
+@media(min-width:992px)and (max-width:1199px) {}
+
+@media(min-width:801px)and (max-width:1245px) {
+    .top-header {
+        padding: 2% 0 30% 0
+    }
+}
+
+@media(min-width:767px)and (max-width:993px) {
+    .custom-home {
+        text-align: right !important
+    }
+
+    .custom-back {
+        text-align: right !important;
+        margin-left: 28px
+    }
+}
+
+@media(min-width:768px)and (max-width:991px) {
+    .home-title h1 {
+        font-size: 5rem
+    }
+
+    .home-dic {
+        font-size: 1rem
+    }
+
+    .arrow-down a {
+        font-size: 1rem
+    }
+
+    .contact-me a:hover {
+        color: black
+    }
+
+    .custom-home {
+        text-align: right !important;
+        margin: 30px
+    }
+
+    .custom-back {
+        text-align: right !important;
+    }
+}
+
+@media(min-width:481px)and (max-width:722px) {
+    .contact-me a:hover {
+        color: black
+    }
+}
+
+@media(min-width:723px)and (max-width:779px) {
+    .home-title h1 {
+        font-size: 5rem
+    }
+
+    .home-dic {
+        font-size: 1rem
+    }
+
+    .button a {
+        float: none;
+        margin: 5px
+    }
+
+    .arrow-down a {
+        font-size: 1rem
+    }
+
+    .contact-me a:hover {
+        color: black
+    }
+
+    .top-header {
+        padding: 0
+    }
+
+    .form-inner {
+        margin: 0
+    }
+
+    .custom-home {
+        text-align: center;
+        margin: 30px
+    }
+
+    .custom-back {
+        text-align: center
+    }
+}
+
+@media(min-width:481px)and (max-width:722px) {
+    .custom-home {
+        text-align: center;
+        margin: 30px
+    }
+
+    .custom-back {
+        text-align: center
+    }
+}
+
+@media(max-width:767px) {}
+
+@media(max-width:480px) {
+    .home-title h1 {
+        font-size: 3rem
+    }
+
+    .home-dic {
+        font-size: .8rem
+    }
+
+    .button a {
+        float: none;
+        margin-bottom: 5px;
+        font-size: .9rem
+    }
+
+    .arrow-down a {
+        font-size: 1rem
+    }
+
+    .content p {
+        font-size: 1rem
+    }
+
+    .content-item li {
+        font-size: 1rem
+    }
+
+    .contact-me a:hover {
+        color: black
+    }
+
+    .top-header {
+        padding: 0
+    }
+
+    .form-inner {
+        margin: 0;
+        padding-top: 25%
+    }
+
+    .thanks-title h1 {
+        font-size: 2rem
+    }
+
+    .custom-home {
+        text-align: center;
+        margin: 30px
+    }
+
+    .custom-back {
+        text-align: center
+    }
+}
+
+@media(max-width:320px) {
+    .home-title h1 {
+        font-size: 2rem
+    }
+
+    .home-dic {
+        font-size: .8rem
+    }
+
+    .button a {
+        padding: 10px !important;
+        margin: 10px;
+        float: none
+    }
+
+    .arrow-down a {
+        font-size: 1rem
+    }
+
+    .title {
+        font-size: 0;
+        padding: 0
+    }
+
+    .title h2 {
+        font-size: 1rem
+    }
+
+    .content {
+        font-size: .8rem
+    }
+
+    .content p {
+        font-size: .8rem
+    }
+
+    .content-style {
+        font-size: .8rem
+    }
+
+    .content-item {
+        font-size: .8rem
+    }
+
+    .content-item li {
+        font-size: .8rem
+    }
+
+    .perpose .content-item li {
+        font-size: .8rem
+    }
+
+    .required .content-item li::before {
+        font-size: 1rem
+    }
+
+    .blockquote p {
+        font-size: 1rem
+    }
+
+    .support-icon a i {
+        padding: 0
+    }
+
+    .footer h6 {
+        font-size: .7rem
+    }
+
+    .footer h6 a {
+        font-size: 1rem
+    }
+
+    .contact-me a:hover {
+        color: black
+    }
+
+    .top-header {
+        width: 100%;
+        overflow: hidden
+    }
+
+    .form-inner {
+        margin: 0
+    }
+
+    .form-title h2 {
+        padding-top: 40px;
+        font-size: 1.5rem;
+        margin-bottom: 30px
+    }
+
+    .error-icon i {
+        font-size: 5rem
+    }
+
+    .error-messege {
+        font-size: 1rem
+    }
+
+    .thank-img i {
+        font-size: 4rem
+    }
+
+    .thanks-dec p {
+        font-size: .9rem
+    }
+
+    .reatun a {
+        font-size: 1rem;
+        padding: 10px 20px;
+        margin-bottom: 14px
+    }
+
+    .custom-home {
+        text-align: center;
+        margin: 30px
+    }
+
+    .custom-back {
+        text-align: center
+    }
+
+    .thank-footer h6 {
+        font-size: .8rem
+    }
+}
