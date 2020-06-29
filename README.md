@@ -1,5 +1,5 @@
 # nanoteamsignup form
-##Theme URI: https://iqbalhasandev.gitghub.oi/nanoteamsignup
+##Theme URI: https://iqbalhasandev.github.io/nanoteamsignup/
 ##Author: IQBA HASAN
 ##Author URI: https://www.github.com/iqbalhasandev
 ###Author Social URI: https://www.facebook.com/iqbalhasan.dev
